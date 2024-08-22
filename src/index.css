@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+
+body { 
+    background: linear-gradient(to right, #3b82f6, #14b8a6);
+    color: white;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+main {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+  
+  section {
+    
+    min-height: auto; /* Adjust height as needed */
+    margin: 0; /* Remove default margins */
+  }
+  
+
+
+  img {
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #2222228e);
+  }
