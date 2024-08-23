@@ -1,0 +1,38 @@
+/* Name container transitions */
+#name-container {
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  #name {
+    transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out, background-color 0.3s ease-in-out, backdrop-filter 0.3s ease-in-out;
+  }
+  
+  #name.sticky {
+    transform: translateY(-20px);
+  }
+  
+  
+  
+  /* Image container transitions */
+  #img {
+    transition: transform 0.6s ease-in-out, box-shadow 0.3s ease-in-out, backdrop-filter 0.3s ease-in-out;
+  }
+  
+  #img img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #img.sticky {
+    transform: scale(0.6);
+  }
+  
+  /* Sticky element transitions */
+  .sticky {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Header transitions */
+  header.sticky {
+    transition: background-color 0.3s ease-in-out, backdrop-filter 0.3s ease-in-out;
+  }
+  

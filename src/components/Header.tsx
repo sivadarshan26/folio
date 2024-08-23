@@ -3,7 +3,7 @@ import React from 'react';
 
 const Header: React.FC = () => {
   return (
-    <header className='px-5 mt-2 rounded-full flex justify-center py-3 sticky top-0 bg-black/20 w-fit backdrop-blur'>
+    <header className='px-5 mt-2 rounded-full flex justify-center py-3 sticky top-2 bg-black/20 w-fit backdrop-blur'>
     <nav>
       <ul className='flex space-x-4'>
         <li><a href="#home">Home</a></li>

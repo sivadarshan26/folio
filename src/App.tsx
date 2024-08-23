@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './components/Header';
+// import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -11,11 +11,11 @@ const App: React.FC = () => {
   return (
     <>
     <div>
-      <div className='flex justify-center w-full sticky top-0'>
+      {/* <div className='flex justify-center w-full sticky top-0'>
       <Header />
-      </div>
+      </div> */}
       <main>
-        <div id="home">
+        <div id="home" className='sticky top-0'>
           <Home />
         </div>
         <div id="about">
