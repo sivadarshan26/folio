@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.box {
+    box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.5),
+             -15px -15px 30px rgba(255, 255, 255, 0.356);
+  }
+
+  .img {
+    box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.5),
+             -15px -15px 30px rgba(255, 255, 255, 0.356);
+  }

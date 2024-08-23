@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Sivadarshan from '../assets/Sivadarshan.png';
+import Sivadarshan from '../assets/images/Sivadarshan.png';
+import CroppedImg from '../assets/images/SivadarshanCropped.png'
 import Header from '../components/Header';
 import './Home.css'
 
@@ -27,7 +28,7 @@ const Home: React.FC = () => {
             <div id="name-container" className="flex flex-col w-4/5 text-center md:text-left">
               <h1
                 id="name"
-                className="md:text-5xl font-bold  rounded-full text-white w-fit backdrop-blur-md"
+                className="md:text-5xl font-bold  text-white w-fit backdrop-blur-md"
                 style={{ transition: 'all 0.3s ease-in-out' }}
               >
                 Sivadarshan S K
@@ -57,10 +58,11 @@ const Home: React.FC = () => {
           </div>
         </>
       ) : (
-        <div className="flex items-center justify-between w-full sticky top-0 z-20  pt-0 transition-all duration-300 ease-in-out">
+        <div className="flex items-center  justify-between w-full sticky top-0 z-20  pt-0 transition-all duration-300 ease-in-out backdrop-blur-xl">
           <h1
             id="name"
-            className="text-white w-fit p-4 bg-black/20 backdrop-blur rounded-full text-sm md:text-xl font-bold"
+            className="box text-white w-fit p-4 backdrop-blur rounded-md text-sm md:text-xl font-bold
+                        bg-gradient-to-r from-gray-700/50 via-gray-800/40 to-gray-900/50 shadow-md"
             style={{ transition: 'all 0.3s ease-in-out' }}
           >
             Sivadarshan S K
@@ -68,15 +70,15 @@ const Home: React.FC = () => {
           <Header />
           <div
             id="img"
-            className="flex justify-center items-center overflow-hidden rounded-full 
-                         w-16 h-16 md:w-24 md:h-24 lg:w-32 lg:h-32 bg-gradient-to-tl from-white via-transparent to-transparent 
+            className="flex custom justify-center items-center overflow-hidden rounded-full 
+                         w-16 h-16 md:w-24 md:h-24 lg:w-32 lg:h-32 bg-gradient-to-tl from-gray-700/70 via-transparent to-transparent 
                          transition-all duration-600 ease-in-out backdrop-blur"
             style={{ transform: 'scale(0.6)' }}
           >
             <img
-              src={Sivadarshan}
+              src={CroppedImg}
               alt="Sivadarshan"
-              className="object-cover h-full"
+              className=" object-cover h-full"
               style={{  transition: 'transform 0.3s ease-in-out' }}
             />
           </div>
