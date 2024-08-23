@@ -27,7 +27,7 @@ const App: React.FC = () => {
         <div id="certifications">
           <Certifications />
         </div>
-        <div id="contact">
+        <div id="contact" className='flex items-center justify-center'>
           <Contact />
         </div>
       </main>

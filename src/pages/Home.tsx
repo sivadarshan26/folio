@@ -67,7 +67,9 @@ const Home: React.FC = () => {
           >
             Sivadarshan S K
           </h1>
-          <Header />
+          <div className='flex items-center justify-center'>
+            <Header />
+          </div>
           <div
             id="img"
             className="flex custom justify-center items-center overflow-hidden rounded-full 

@@ -2,7 +2,9 @@ import React from 'react';
 import ProjectCard from '../components/ProjectCard';
 import Wapp from  '../assets/images/Whatsapp_clone.png';
 import Twitter from '../assets/images/TwitterClone.png';
-import SchoolSync from '../assets/images/SchoolSync.png'
+import SchoolSync from '../assets/images/SchoolSync.png';
+import Medical from '../assets/images/Medical.png'
+
 
 const Projects: React.FC = () => {
   const projects = [
@@ -13,10 +15,10 @@ const Projects: React.FC = () => {
       image: Wapp, // Use the image path directly
     },
     {
-      title: 'CRM Application to manage an entire Medical Clinic with pharmacy',
+      title: 'MediSync',
       description: 'The website can sign up patients and manage medicine supplies, holding info about patients and suppliers. Keep patient records private, handle pharmacy billing, and manage patient queues. Provide doctors with waiting lists and medicine stock checks.',
       techStack: ['React', 'Vite', 'TailwindCSS', 'MUI', 'Daisy UI', 'Redux', 'Nginx', 'Azure', 'MongoDB Atlas'],
-      image: Wapp, // Use the image path directly
+      image: Medical, // Use the image path directly
     },
     {
       title: 'Twitter UI Clone',
@@ -35,6 +37,24 @@ const Projects: React.FC = () => {
       ],
       image: SchoolSync, // Replace with actual image path
     },
+    {
+      title: 'WhatsApp Web UI Clone',
+      description: 'This project is a UI-centered clone of the WhatsApp Web interface. It replicates the layout and design of the original WhatsApp Web, focusing on providing a similar user experience. The clone includes features such as chat lists, message bubbles, and a responsive design, making it a great project for practicing UI development with modern web technologies.',
+      techStack: ['React','Vite','Tailwind CSS','DaisyUI','MUI','React Icons','Lottie','React Router DOM'],
+      image: Wapp, // Replace with actual image path
+    }, 
+    {
+      title: 'PDF to Word Conversion Website',
+      description: 'This project is a website designed to automate the conversion of PDF files to Word documents (non-OCR). Users can upload their PDF files, and the site will convert them into Word documents while preserving the layout and text. The website leverages a Flask server for handling file uploads and conversions using the pdf2docx library.',
+      techStack: ['React', 'Vite', 'Tailwind CSS','Flask','pdf2docx'],
+      image: 'path/to/pdf-to-word-conversion-website-image.jpg', // Replace with the actual image path
+    },
+    {
+      title: 'Excel File Splitter',
+      description: 'This project is a web application that allows users to split Excel files into smaller files based on a specified number of rows per file. The frontend is built with React, and the backend is powered by Flask. Users can upload an Excel file, specify the number of rows per file, and download the split files as a zip archive. The application uses Pandas for processing Excel files and Flask-CORS to handle cross-origin requests.',
+      techStack: ['React','Axios','Flask','Flask-CORS','Pandas','Werkzeug','JavaScript (ES6+)','HTML/CSS','Python'],
+      image: 'path/to/excel-file-splitter-image.jpg' // Replace with the actual image path
+    }
   ];
 
   return (
