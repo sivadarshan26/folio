@@ -4,7 +4,7 @@ import './Contacts.css';
 const Contact: React.FC = () => {
   return (
     <div className="parent ">
-      <div className="card">
+      <div className="carda">
         <div className="logo">
           <span className="circle circle1"></span>
           <span className="circle circle2"></span>

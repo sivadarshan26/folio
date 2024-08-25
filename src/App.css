@@ -11,3 +11,11 @@
     box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.5),
              -15px -15px 30px rgba(255, 255, 255, 0.356);
   }
+
+  .mainbg{
+  background: radial-gradient(
+    ellipse at bottom right , /* Shape and position of the gradient */
+    rgba(177, 1, 1, 1), /* White color with full opacity */
+    rgba(0, 0, 0, 1)  /* White color fading to transparent */
+  );
+}

@@ -4,12 +4,21 @@
 
 html {
     scroll-behavior: smooth;
+    
+
+  }
+
+  .customBG {
+    background: radial-gradient(
+      ellipse at bottom right, /* Shape and position of the gradient */
+      rgba(255, 255, 255, 0.1), /* White color with full opacity */
+      rgba(255, 255, 255, 0)  /* White color fading to transparent */
+    );
   }
   
 
 
 body { 
-    background: linear-gradient(to right, #3b82f6, #14b8a6);
     color: white;
     margin: 0;
     padding: 0;
@@ -22,12 +31,12 @@ main {
     scroll-behavior: smooth;
   }
   
-  section {
+  /* section {
     
-    min-height: auto; /* Adjust height as needed */
-    margin: 0; /* Remove default margins */
+    min-height: auto;
+    margin: 0; 
   }
-  
+   */
 
 
   /* img {
@@ -38,4 +47,9 @@ main {
   .box {
     box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.5),
              -15px -15px 30px rgba(255, 255, 255, 0.356);
+  }
+
+  .box2 {
+    box-shadow: 6px 6px 14px rgba(25, 25, 25, 0.5),
+             6px 6px 14px rgba(255, 255, 255, 0.356);
   }

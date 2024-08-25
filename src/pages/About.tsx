@@ -54,7 +54,7 @@ const About: React.FC = () => {
     <div className="container mx-auto p-6 md:p-8 lg:p-12">
       <h2 className="text-3xl font-bold mb-4">Skills</h2>
 
-      <div id='skills' className='bg-white/20 p-3 rounded-md shadow-md'>
+      <div id='skills' className='custombg p-3 rounded-md shadow-md'>
         {skillGroups.map((group, index) => (
           <div key={index} className="mb-6">
             <h3 className="text-xl font-semibold mb-3">{group.category}</h3>

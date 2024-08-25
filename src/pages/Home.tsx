@@ -33,7 +33,7 @@ const Home: React.FC = () => {
               >
                 Sivadarshan S K
               </h1>
-              <div id="About Me" className="mt-4 p-3 bg-white/20 rounded-md shadow-md">
+              <div id="About Me" className="mt-4 p-3 custombg rounded-md shadow-md custom-outline">
                 <h2 className="text-xl md:text-2xl font-bold mb-4">About Me</h2>
                 <p className="text-sm md:text-base lg:text-lg">
                   I completed my MCA degree at Sona College of Technology in Salem. I also have a BCA degree from Don Bosco College in Dharmapuri. 
@@ -44,7 +44,7 @@ const Home: React.FC = () => {
             <div
               id="img"
               className="flex justify-center items-center overflow-hidden rounded-full  
-                         w-40 h-40 md:w-60 md:h-60 lg:w-80 lg:h-80 bg-gradient-to-tl from-white via-transparent to-transparent 
+                         w-40 h-40 md:w-60 md:h-60 lg:w-80 lg:h-80 bg-gradient-to-tl from-white/30 via-transparent to-transparent 
                          transition-transform duration-300 ease-in-out"
               style={{ transform: 'scale(1)' }}
             >
@@ -58,7 +58,7 @@ const Home: React.FC = () => {
           </div>
         </>
       ) : (
-        <div className="flex items-center  justify-between w-full sticky top-0 z-20  pt-0 transition-all duration-300 ease-in-out backdrop-blur-xl">
+        <div className="flex items-center justify-between w-full sticky top-0 z-100 pt-0 transition-all duration-300 ease-in-out backdrop-blur-xl">
           <h1
             id="name"
             className="box text-white w-fit p-4 backdrop-blur rounded-md text-sm md:text-xl font-bold
